@@ -19,7 +19,7 @@ import { drawPoint, drawSegment } from '../../utils/helper'
 let skeletonColor = 'rgb(255,255,255)'
 let poseList = [
   'Tree', 'Chair', 'Cobra', 'Warrior', 'Dog',
-  'Shoulderstand', 'Traingle'
+  'Shoulderstand', 'Traingle','Plank'
 ]
 
 let interval
@@ -68,6 +68,7 @@ function Yoga() {
     Traingle: 5,
     Tree: 6,
     Warrior: 7,
+    Plank:8,
   }
 
   function get_center_point(landmarks, left_bodypart, right_bodypart) {
