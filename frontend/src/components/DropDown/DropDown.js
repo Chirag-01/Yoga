@@ -18,14 +18,15 @@ return (
             aria-expanded="false"
         >{currentPose}
         </button>
-        <ul class="dropdown-menu dropdown-custom-menu" aria-labelledby="dropdownMenuButton1">
+        <ul className="dropdown-menu dropdown-custom-menu" aria-labelledby="dropdownMenuButton1">
             {poseList.map((pose) => (
                 <li onClick={() => setCurrentPose(pose)}>
-                    <div class="dropdown-item-container">
+                    <div className="dropdown-item-container">
                         <p className="dropdown-item-1">{pose}</p>
                         <img 
                             src={poseImages[pose]}
                             className="dropdown-img"
+                            alt='yoga-pose'
                         />
                         
                     </div>
