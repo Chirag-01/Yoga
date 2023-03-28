@@ -9,10 +9,9 @@ export default function About() {
             <div className="about-main">
                 <p className="about-content">
                     This is an realtime AI based Yoga Trainer which detects your pose how well you are doing.
-                    I created this as a personal project, and I have also deployed this project
+                    We created this as a project for Google Solution Challenge 2023, and have deployed this project too.
                     so people can use it and mainly the developers can who are learning AI can learn 
                     from this project and make their own AI or they can also improve in this project.
-                    This is an open source project, The code is available on the GitHub - <a href="https://github.com/harshbhatt7585/YogaIntelliJ">https://github.com/harshbhatt7585/YogaIntelliJ</a>
                     
                     This AI first predicts keypoints or coordinates of different parts of the body(basically where
                     they are present in an image) and then it use another classification model to classify the poses if 
@@ -24,15 +23,11 @@ export default function About() {
                     the keras/tensorflow model to tensorflowJS.
                 </p>
                 <div className="developer-info">
-                    <h4>About Developer</h4>
-                    <p className="about-content">I am Harsh, I am Full Stack Developer, AI Enthusiastic, Content Creator, Tutor,
-                        I love to work with technology and love to share on my youtube channel, 
-                        I hope this project will help you. 
+                    <h4>About Developers</h4>
+                    <p className="about-content">We <a href="https://www.linkedin.com/in/chirag-lalwani-437b7b206/">Chirag Lalwani</a> and <a href="https://www.linkedin.com/in/kush-munot/">Kush Munot</a>, are Full Stack Developers, AI Enthusiasts
+                        We love to work with technology and love to share on my youtube channel, 
+                        We hope this project will help you. 
                     </p>
-                    <h4>Contact</h4>
-                    <a href="https://www.instagram.com/codedharsh75/"><p className="about-content">Instagram</p></a>
-                    <a href="https://www.youtube.com/channel/UCiD7kslR7lKSaPGSQ-heOWg"><p  className="about-content">Youtube</p></a>
-                    <a href="https://github.com/harshbhatt7585"><p  className="about-content">GitHub</p></a>
                 </div>
             </div>
         </div>
