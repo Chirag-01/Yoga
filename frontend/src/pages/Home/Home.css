@@ -28,7 +28,7 @@
     margin-top: -50px;
     width: 100vw;
     height: 100vh;    
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url('../../utils/images/yoga_pose.png') ;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.2)), url('../../utils/images/yoga_pose.png') ;
     background-repeat: no-repeat;
     background-position: center;
     background-size:  750px;
@@ -64,7 +64,7 @@
     cursor: pointer;
 }
 .btn:hover {
-    background: rgba(255,165,0, 0.2);
+    background: rgba(255,165,0, 1);
     color: white;
 }
 

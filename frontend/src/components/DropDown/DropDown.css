@@ -28,7 +28,7 @@
 
 .dropdown-custom-menu {
     overflow: scroll;
-    height: 40vh;
+    height: 50vh;
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
