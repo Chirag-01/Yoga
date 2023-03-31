@@ -4,11 +4,11 @@ export const poseInstructions = {
         'Bend one leg at the knee. Choose the leg you are going to fold in first. If your left leg is your standing leg, keep your left foot planted on the ground, and slowly bend in your right leg at the right knee so that the sole of your right foot rests against your left inner thigh (known as the half-lotus position in Bikram yoga). Point the knee of your bent leg outward, away from your body.',
         'Lengthen your body. Clasp your hands together in Anjali Mudra (also called the “prayer position”)',
         'Hold and repeat. Hold the pose for as long as necessary, making sure to breathe properly. When you’re ready to switch legs, exhale, and return to mountain pose to start again.'
-        ],
+    ],
     Cobra: [
         'Lie prone on the floor. Stretch your legs back, tops of the feet on the floor. Spread your hands on the floor under your shoulders. Hug the elbows back into your body.',
         'On an inhalation, begin to straighten the arms to lift the chest off the floor, going only to the height at which you can maintain a connection through your pubis to your legs. Press the tailbone toward the pubis and lift the pubis toward the navel. Narrow the hip points. Firm but don’t harden the buttocks.',
-        'Firm the shoulder blades against the back, puffing the side ribs forward. Lift through the top of the sternum but avoid pushing the front ribs forward, which only hardens the lower back. Distribute the backbend evenly throughout the entire spine.',    
+        'Firm the shoulder blades against the back, puffing the side ribs forward. Lift through the top of the sternum but avoid pushing the front ribs forward, which only hardens the lower back. Distribute the backbend evenly throughout the entire spine.',
         'Hold the pose anywhere from 15 to 30 seconds, breathing easily. Release back to the floor with an exhalation.',
         'Source: Yoga Journal - https://www.yogajournal.com/poses/types/cobra-pose-2/'
     ],
@@ -19,7 +19,7 @@ export const poseInstructions = {
         'Firm your outer arms and press the bases of your index fingers actively into the floor. Lift along your inner arms from the wrists to the tops of the shoulders. Firm your shoulder blades against your back, then widen them and draw them toward your tailbone. Keep your head between your upper arms.',
         'Stay in the pose for 10 or more breaths, then bend your knees on an exhalation and lower yourself into Child’s Pose',
         'Source: Yoga Journal - https://www.yogajournal.com/poses/types/downward-facing-dog/'
-    
+
     ],
     Chair: [
         'Stand straight and tall with your feet slightly wider than hip­-width apart and your arms at your sides.',
@@ -48,16 +48,15 @@ export const poseInstructions = {
         "Stay in the pose for up to 10 breaths",
         'Source: verywellfit - https://www.verywellfit.com/shoulderstand-salamba-sarvangasana-3567115'
     ],
-    Plank:[
-        'Start with a stack of two folded blankets. Lay down on your mat aligning shoulders onto the blankets. With legs bent and feet on the floor (as if setting up for bridge pose) begin to walk your shoulders underneath your upper back feeling the chest gently rising.',
-        'Lift your hips off of the mat coming into bridge pose and extend your arms onto the ground, palms facing down as if your hands could touch your heels. Press firmly into the palms using them as leverage to lift onto the balls of the feet and extend one leg up. Bend at the elbows, place your hands on your low back creating a shelf, and then extend the next leg up.',
-        "Once you raise the legs, don't turn your head to the side to look around the room, since you can injure your neck. Keep your gaze upward and your neck straight.",
-        "Lift up through the balls of your feet. Walk your hands further up the back for more stability. Feel the chest reaching towards the chin to support opening the upper back.",
-        "Move your hips toward the front of the room and your feet toward the back of the room to straighten the body. The correct alignment is with the hips over the shoulders and feet over the hips. Ask your teacher or a friend to help you determine if your legs are perpendicular to the floor.",
-        "Stay in the pose for up to 10 breaths",
-        'Source: verywellfit - https://www.verywellfit.com/shoulderstand-salamba-sarvangasana-3567115'
+    Plank: [
+        "Start by getting into a push-up position, with your hands on the ground directly beneath your shoulders and your feet together.",
+        "Engage your core and glutes by squeezing your abdominal muscles and glutes together. This will help to keep your body in a straight line.",
+        "Lower your body down onto your forearms, with your elbows directly beneath your shoulders.",
+        "Maintain a straight line from your head to your heels by engaging your core and glutes.",
+        "Hold the position for 30 seconds to 1 minute, or as long as you can maintain good form.",
+        "To come out of the plank, lower your knees to the ground and rest for a few seconds before returning to a standing position.",
     ]
-    
+
 }
 
 
@@ -73,26 +72,26 @@ export const fixCamera = [
     'Solution 1. Make sure you have allowed the permission of camera, if you have denined the permission, go to setting of your browser to allow the access of camera to the application.',
     'Solution 2. Make sure no any other application is not accessing camera at that time, if yes, close that application',
     'Solution 3. Try to close all the other opened broswers'
-] 
+]
 
 export const POINTS = {
-    NOSE : 0,
-    LEFT_EYE : 1,
-    RIGHT_EYE : 2,
-    LEFT_EAR : 3,
-    RIGHT_EAR : 4,
-    LEFT_SHOULDER : 5,
-    RIGHT_SHOULDER : 6,
-    LEFT_ELBOW : 7,
-    RIGHT_ELBOW : 8,
-    LEFT_WRIST : 9,
-    RIGHT_WRIST : 10,
-    LEFT_HIP : 11,
-    RIGHT_HIP : 12,
-    LEFT_KNEE : 13,
-    RIGHT_KNEE : 14,
-    LEFT_ANKLE : 15,
-    RIGHT_ANKLE : 16,
+    NOSE: 0,
+    LEFT_EYE: 1,
+    RIGHT_EYE: 2,
+    LEFT_EAR: 3,
+    RIGHT_EAR: 4,
+    LEFT_SHOULDER: 5,
+    RIGHT_SHOULDER: 6,
+    LEFT_ELBOW: 7,
+    RIGHT_ELBOW: 8,
+    LEFT_WRIST: 9,
+    RIGHT_WRIST: 10,
+    LEFT_HIP: 11,
+    RIGHT_HIP: 12,
+    LEFT_KNEE: 13,
+    RIGHT_KNEE: 14,
+    LEFT_ANKLE: 15,
+    RIGHT_ANKLE: 16,
 }
 
 export const keypointConnections = {
